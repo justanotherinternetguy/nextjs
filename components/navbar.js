@@ -23,6 +23,7 @@ export default function navbar() {
 						justify-content: space-between;
 						align-items: center;
 						padding: 1rem;
+						background-color: #dce0e8;
 					}
 					ul {
 						display: flex;
