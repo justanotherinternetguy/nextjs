@@ -1,5 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import Link from "next/link";
 import {
 	SiNeovim,
 	SiPython,
@@ -40,19 +41,19 @@ export default function projects() {
 				</div>
 
 				<div className={styles.icons}>
-					<a
+					<Link
 						className={styles.a}
 						href="https://github.com/justanotherinternetguy"
 					>
 						<SiGithub className={styles.icon} size={42} />
-					</a>
+					</Link>
 
-					<a
+					<Link
 						className={styles.a}
 						href="https://github.com/justanotherinternetguy"
 					>
 						<SiDiscord className={styles.icon} size={42} />
-					</a>
+					</Link>
 				</div>
 
 				<p className={styles.description}>
@@ -60,25 +61,28 @@ export default function projects() {
 				</p>
 
 				<div className={styles.grid}>
-					<a href="/projects" className={styles.card}>
+					<Link href="/projects" className={styles.card}>
 						<h2>Projects &rarr;</h2>
-						<p>Take a look at what I've done and what I've made.</p>
-					</a>
+						<p>
+							Take a look at what I&apos;ve done and what
+							I&apos;ve made.
+						</p>
+					</Link>
 
-					<a href="https://example.com" className={styles.card}>
+					<Link href="https://example.com" className={styles.card}>
 						<h2>Experience &rarr;</h2>
 						<p>
 							My experience in using different tools and
 							languages.
 						</p>
-					</a>
+					</Link>
 
-					<a href="https://example.com" className={styles.card}>
+					<Link href="https://example.com" className={styles.card}>
 						<h2>Blog &rarr;</h2>
 						<p>Splish splash your opinion is trash.</p>
-					</a>
+					</Link>
 
-					<a
+					<Link
 						href="https://example.com"
 						target="_blank"
 						rel="noopener noreferrer"
@@ -86,7 +90,7 @@ export default function projects() {
 					>
 						<h2>Contact &rarr;</h2>
 						<p>Contact me!</p>
-					</a>
+					</Link>
 				</div>
 			</main>
 		</div>

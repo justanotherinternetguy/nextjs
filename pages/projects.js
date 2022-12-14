@@ -1,19 +1,7 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import {
-	SiNeovim,
-	SiPython,
-	SiJava,
-	SiJavascript,
-	SiCplusplus,
-	SiNim,
-	SiRust,
-	SiPostgresql,
-	SiArchlinux,
-	SiGithub,
-	SiNextdotjs,
-	SiDiscord,
-} from "react-icons/si";
+import Link from "next/link";
+import { SiDiscord } from "react-icons/si";
 
 export default function Home() {
 	return (
@@ -34,16 +22,16 @@ export default function Home() {
 				</p>
 
 				<div className={styles.grid}>
-					<a href="/" className={styles.card}>
+					<Link href="/" className={styles.card}>
 						<h2>This website &rarr;</h2>
 						<p>
 							Re-coding my website has always been my go-to
 							technique of learning a new webdev tool. Right now,
-							I'm using Next.JS and React.JS.
+							I&apos;m using Next.JS and React.JS.
 						</p>
-					</a>
+					</Link>
 
-					<a
+					<Link
 						href="https://github.com/SaazM/8405FTC"
 						className={styles.card}
 						target="_blank"
@@ -53,35 +41,35 @@ export default function Home() {
 							This is the codebase for my high school robotics
 							team.
 						</p>
-					</a>
+					</Link>
 
-					<a
+					<Link
 						href="https://github.com/justanotherinternetguy/CS-Resources"
 						className={styles.card}
 						target="_blank"
 					>
 						<h2>Competitive Programming &rarr;</h2>
 						<p>
-							I've been getting into Competitive Programming
+							I&apos;ve been getting into Competitive Programming
 							recently, this is my collection of solutions and
 							snippets.
 						</p>
-					</a>
+					</Link>
 
-					<a
+					<Link
 						href="https://github.com/justanotherinternetguy/CS-Resources"
 						className={styles.card}
 						target="_blank"
 					>
 						<h2>Competitive Programming &rarr;</h2>
 						<p>
-							I've been getting into Competitive Programming
+							I&apos;ve been getting into Competitive Programming
 							recently, this is my collection of solutions and
 							snippets.
 						</p>
-					</a>
+					</Link>
 
-					<a
+					<Link
 						href="https://github.com/justanotherinternetguy/DriftBot"
 						target="_blank"
 						rel="noopener noreferrer"
@@ -95,7 +83,7 @@ export default function Home() {
 							Discord bot for general utility, moderation, and
 							fun.
 						</p>
-					</a>
+					</Link>
 				</div>
 			</main>
 		</div>
