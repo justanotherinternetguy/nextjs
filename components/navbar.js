@@ -7,13 +7,13 @@ export default function navbar() {
 			<nav className={styles.nav}>
 				<ul className={styles.ul}>
 					<li className={styles.li}>
-						<Link href="/">Home</Link>
+						<Link href="/">/home/</Link>
 					</li>
 					<li className={styles.li}>
-						<Link href="/projects">Projects</Link>
+						<Link href="/projects">~/Projects</Link>
 					</li>
 					<li className={styles.li}>
-						<Link href="/contact">Contact</Link>
+						<Link href="/contact">~/Contact</Link>
 					</li>
 				</ul>
 			</nav>

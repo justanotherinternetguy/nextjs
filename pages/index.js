@@ -62,7 +62,7 @@ export default function projects() {
 
 				<div className={styles.grid}>
 					<Link href="/projects" className={styles.card}>
-						<h2>Projects &rarr;</h2>
+						<h2>~/Projects &rarr;</h2>
 						<p>
 							Take a look at what I&apos;ve done and what
 							I&apos;ve made.
@@ -70,15 +70,15 @@ export default function projects() {
 					</Link>
 
 					<Link href="https://example.com" className={styles.card}>
-						<h2>Experience &rarr;</h2>
+						<h2>~/Experience &rarr;</h2>
 						<p>
 							My experience in using different tools and
 							languages.
 						</p>
 					</Link>
 
-					<Link href="https://example.com" className={styles.card}>
-						<h2>Blog &rarr;</h2>
+					<Link href="/blog" className={styles.card}>
+						<h2>~/Blog &rarr;</h2>
 						<p>Splish splash your opinion is trash.</p>
 					</Link>
 
@@ -88,7 +88,7 @@ export default function projects() {
 						rel="noopener noreferrer"
 						className={styles.card}
 					>
-						<h2>Contact &rarr;</h2>
+						<h2>~/Contact &rarr;</h2>
 						<p>Contact me!</p>
 					</Link>
 				</div>

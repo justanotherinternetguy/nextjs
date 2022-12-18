@@ -3,7 +3,7 @@ import styles from "../styles/Home.module.css";
 import Link from "next/link";
 import { SiDiscord } from "react-icons/si";
 
-export default function Home() {
+export default function projects() {
 	return (
 		<div className={styles.container}>
 			<Head>
@@ -22,7 +22,11 @@ export default function Home() {
 				</p>
 
 				<div className={styles.grid}>
-					<Link href="/" className={styles.card}>
+					<Link
+						href="https://github.com/justanotherinternetguy/nextjs"
+						className={styles.card}
+						target="_blank"
+					>
 						<h2>This website &rarr;</h2>
 						<p>
 							Re-coding my website has always been my go-to
@@ -57,15 +61,15 @@ export default function Home() {
 					</Link>
 
 					<Link
-						href="https://github.com/justanotherinternetguy/CS-Resources"
+						href="https://github.com/justanotherinternetguy/AI-ML"
 						className={styles.card}
 						target="_blank"
 					>
-						<h2>Competitive Programming &rarr;</h2>
+						<h2>AI/Machine Learning &rarr;</h2>
 						<p>
-							I&apos;ve been getting into Competitive Programming
-							recently, this is my collection of solutions and
-							snippets.
+							My central repository for all my machine learning
+							testing. I&apos;ve used tensorflow, pytorch, and
+							pandas in the past.
 						</p>
 					</Link>
 
@@ -75,10 +79,7 @@ export default function Home() {
 						rel="noopener noreferrer"
 						className={styles.card}
 					>
-						<h2>
-							DriftBot <SiDiscord />
-							&rarr;
-						</h2>
+						<h2>DriftBot &rarr;</h2>
 						<p>
 							Discord bot for general utility, moderation, and
 							fun.
