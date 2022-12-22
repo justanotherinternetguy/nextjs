@@ -42,7 +42,7 @@ export default function projects() {
 					>
 						<h2>8405 Millburn Robotics &rarr;</h2>
 						<p>
-							This is the codebase for my high school robotics
+							This is the codebase for my high school FTC robotics
 							team.
 						</p>
 					</Link>
@@ -68,9 +68,15 @@ export default function projects() {
 						<h2>AI/Machine Learning &rarr;</h2>
 						<p>
 							My central repository for all my machine learning
-							testing. I&apos;ve used tensorflow, pytorch, and
-							pandas in the past.
+							testing. Including
 						</p>
+						<ul className={styles.p}>
+							<li>Neural nets from scratch</li>
+							<li>Convolution image filter</li>
+							<li>
+								SGD, Sigmoid, Softmax, Random Forests, and more!
+							</li>
+						</ul>
 					</Link>
 
 					<Link
@@ -83,6 +89,32 @@ export default function projects() {
 						<p>
 							Discord bot for general utility, moderation, and
 							fun.
+						</p>
+					</Link>
+
+					<Link
+						href="https://github.com/justanotherinternetguy/FLASK_TODO"
+						target="_blank"
+						rel="noopener noreferrer"
+						className={styles.card}
+					>
+						<h2>TODO application &rarr;</h2>
+						<p>
+							Using Flask and SQLite3, I created a fullstack app
+							for a to-do list.
+						</p>
+					</Link>
+
+					<Link
+						href="https://github.com/justanotherinternetguy/firechat"
+						target="_blank"
+						rel="noopener noreferrer"
+						className={styles.card}
+					>
+						<h2>Real-Time Chat app &rarr;</h2>
+						<p>
+							Created with React.js and Firebase as the backend
+							and auth.
 						</p>
 					</Link>
 				</div>

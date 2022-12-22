@@ -44,14 +44,12 @@ export default function projects() {
 					<Link
 						className={styles.a}
 						href="https://github.com/justanotherinternetguy"
+						target="_blank"
 					>
 						<SiGithub className={styles.icon} size={42} />
 					</Link>
 
-					<Link
-						className={styles.a}
-						href="https://github.com/justanotherinternetguy"
-					>
+					<Link className={styles.a} href="/">
 						<SiDiscord className={styles.icon} size={42} />
 					</Link>
 				</div>
@@ -69,20 +67,20 @@ export default function projects() {
 						</p>
 					</Link>
 
-					<Link href="https://example.com" className={styles.card}>
+					{/* <Link href="https://example.com" className={styles.card}>
 						<h2>~/Experience &rarr;</h2>
 						<p>
 							My experience in using different tools and
 							languages.
 						</p>
-					</Link>
+					</Link> */}
 
-					<Link href="/blog" className={styles.card}>
+					{/* <Link href="/blog" className={styles.card}>
 						<h2>~/Blog &rarr;</h2>
 						<p>Splish splash your opinion is trash.</p>
-					</Link>
+					</Link> */}
 
-					<Link
+					{/* <Link
 						href="https://example.com"
 						target="_blank"
 						rel="noopener noreferrer"
@@ -90,7 +88,7 @@ export default function projects() {
 					>
 						<h2>~/Contact &rarr;</h2>
 						<p>Contact me!</p>
-					</Link>
+					</Link> */}
 				</div>
 			</main>
 		</div>

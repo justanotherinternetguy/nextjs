@@ -6,6 +6,9 @@ export default function footer() {
 			<footer className={styles.footer}>
 				<p>made with ❤️ using neovim :)</p>
 			</footer>
+			<footer className={styles.footer}>
+				<p>discord: justanotherinternetguy#9404</p>
+			</footer>
 		</div>
 	);
 }

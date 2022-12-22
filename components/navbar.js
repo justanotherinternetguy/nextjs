@@ -12,9 +12,9 @@ export default function navbar() {
 					<li className={styles.li}>
 						<Link href="/projects">~/Projects</Link>
 					</li>
-					<li className={styles.li}>
+					{/* <li className={styles.li}>
 						<Link href="/contact">~/Contact</Link>
-					</li>
+					</li> */}
 				</ul>
 			</nav>
 		</div>
