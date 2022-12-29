@@ -18,9 +18,13 @@ export default function blog() {
 				</p>
 
 				<div className={styles.grid}>
-					<Link href=".." className={styles.card}>
-						<h2>Go Back &rarr;</h2>
-						<p>No posts yet!</p>
+					<Link
+						href="./posts/foss_alternatives"
+						className={styles.card}
+					>
+						<h2>
+							Open-Source alternatives that YOU can switch to!
+						</h2>
 					</Link>
 				</div>
 			</main>

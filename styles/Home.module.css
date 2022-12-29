@@ -135,9 +135,23 @@
 
 .a {
 	color: #cdd6f4;
+	text-decoration: underline;
 	transition: color 0.2s ease;
 }
 
 .a:hover {
 	color: #f38ba8;
+}
+
+.subhead {
+	text-decoration: underline;
+	font-size: 36px;
+}
+
+.text {
+	font-size: 24px;
+}
+
+.blog {
+	width: 40%;
 }

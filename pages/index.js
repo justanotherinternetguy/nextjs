@@ -9,7 +9,6 @@ import {
 	SiCplusplus,
 	SiNim,
 	SiRust,
-	SiPostgresql,
 	SiArchlinux,
 	SiGithub,
 	SiNextdotjs,
@@ -36,7 +35,6 @@ export default function projects() {
 					<SiCplusplus className={styles.icon} size={42} />
 					<SiNim className={styles.icon} size={42} />
 					<SiRust className={styles.icon} size={42} />
-					<SiPostgresql className={styles.icon} size={42} />
 					<SiArchlinux className={styles.icon} size={42} />
 				</div>
 
@@ -75,10 +73,10 @@ export default function projects() {
 						</p>
 					</Link> */}
 
-					{/* <Link href="/blog" className={styles.card}>
+					<Link href="/blog" className={styles.card}>
 						<h2>~/Blog &rarr;</h2>
 						<p>Splish splash your opinion is trash.</p>
-					</Link> */}
+					</Link>
 
 					{/* <Link
 						href="https://example.com"
